@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/', function (req, res) {
-  res.send('GET request to homepage')
+  res.send('/page1')
 })
 
 app.listen(1337, () => console.log('Marist Chatter listening on port 1337!'));
