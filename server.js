@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.sendFile('index.html', {root: './'})
 })
 
-app.get('/', function (req, res) {
+app.get('/page1', function (req, res) {
   res.sendFile('page1.html', {root: './'})
 })
 
